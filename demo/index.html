@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>noolbenger Demo</title>
+    <style>
+      body {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        font-family: sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <span id="message">Loading...</span>
+
+    <script type="module">
+      import noolbenger from 'https://unpkg.com/noolbenger'
+      ;(async () => {
+        const foundHoney = await noolbenger.track()
+        const messageEl = document.getElementById('message')
+
+        if (foundHoney) {
+          messageEl.textContent = 'Honey is running! 🍯'
+          messageEl.style.color = 'brown'
+        } else {
+          messageEl.textContent = 'Honey not detected.'
+        }
+      })()
+    </script>
+  </body>
+</html>
