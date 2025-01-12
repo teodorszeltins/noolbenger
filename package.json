@@ -1,0 +1,40 @@
+{
+  "name": "noolbenger",
+  "version": "0.0.0",
+  "author": {
+    "name": "Teodors Zeltins",
+    "email": "teodors.zeltins@gmail.com"
+  },
+  "keywords": [
+    "chrome",
+    "extension",
+    "browser",
+    "typescript"
+  ],
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "devDependencies": {
+    "@changesets/cli": "2.27.11",
+    "@types/node": "22.10.5",
+    "@typescript-eslint/eslint-plugin": "7.13.0",
+    "@typescript-eslint/parser": "7.13.0",
+    "eslint": "8.57.0",
+    "eslint-config-prettier": "9.1.0",
+    "prettier": "3.4.2",
+    "rimraf": "5.0.10",
+    "typescript": "5.4.5"
+  },
+  "engines": {
+    "node": "22.11.0"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf lib",
+    "build": "tsc",
+    "lint": "eslint --cache .",
+    "publish": "bun run build && changeset publish"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
+  "prConcurrentLimit": 5,
+  "minimumReleaseAge": "7 days",
+  "labels": ["dependencies"],
+  "packageRules": [
+    {
+      "groupName": "eslint",
+      "matchPackagePatterns": ["eslint"]
+    },
+    {
+      "groupName": "jest",
+      "matchPackagePatterns": ["jest", "@testing-library"]
+    }
+  ]
+}
