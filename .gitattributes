@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+.eslintrc.js linguist-vendored
+.prettierrc.js linguist-vendored
