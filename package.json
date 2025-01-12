@@ -36,6 +36,6 @@
     "clean": "rimraf lib",
     "build": "tsc",
     "lint": "eslint --cache .",
-    "publish": "bun run build && changeset publish"
+    "release": "bun run build && changeset publish"
   }
 }
