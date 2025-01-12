@@ -1,5 +1,0 @@
----
-'noolbenger': major
----
-
-Initial release
