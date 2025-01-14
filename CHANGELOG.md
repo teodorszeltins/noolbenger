@@ -1,5 +1,11 @@
 # noolbenger
 
+## 1.1.1
+
+### Patch Changes
+
+- 1bd6a58: Update to ESLint 9
+
 ## 1.1.0
 
 ### Minor Changes
