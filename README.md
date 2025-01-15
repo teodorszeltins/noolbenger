@@ -28,4 +28,4 @@ let foundHoney = await noolbenger.track()
 
 ## How is this even possible?
 
-It shouldn't be, and it certainly sounds like a violation of privacy. Unfortunately, it is, and it does. It works because of [web accessible resources(https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/web_accessible_resources) defined in a Chrome extension's `manifest.json`. Like the name implies, these “web accessible” resources can be looked up by anyone capable enough to use `fetch()`. From here, you can continue with nefarious activities, such as fingerprinting website visitors.
+It shouldn't be, and it certainly sounds like a violation of privacy. Unfortunately, it is, and it does. It works because of [web accessible resources](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/web_accessible_resources) defined in a Chrome extension's `manifest.json`. Like the name implies, these “web accessible” resources can be looked up by anyone capable enough to use `fetch()`. From here, you can continue with nefarious activities, such as fingerprinting website visitors.
