@@ -1,5 +1,12 @@
 # noolbenger
 
+## 1.1.2
+
+### Patch Changes
+
+- 1381476: Update README.md
+- 0c46ed1: Update deps
+
 ## 1.1.1
 
 ### Patch Changes
