@@ -2,7 +2,7 @@ A tiny tool to detect if a page visitor has Honey Chrome extension installed and
 
 ## Demo
 
-[https://tedsomething.github.io/noolbenger](https://tedsomething.github.io/noolbenger)
+[https://teodorszeltins.github.io/noolbenger](https://teodorszeltins.github.io/noolbenger)
 
 ## Why?
 
