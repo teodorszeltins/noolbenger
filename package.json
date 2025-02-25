@@ -18,7 +18,7 @@
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "devDependencies": {
-    "@changesets/changelog-github": "0.5.0",
+    "@changesets/changelog-github": "0.5.1",
     "@changesets/cli": "2.27.12",
     "@eslint/eslintrc": "3.2.0",
     "@eslint/js": "9.20.0",
