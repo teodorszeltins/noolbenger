@@ -14,7 +14,7 @@ jobs:
       NODE_OPTIONS: '--max-old-space-size=2048'
     steps:
       - uses: actions/checkout@v5
-      - uses: actions/setup-node@v5
+      - uses: actions/setup-node@v6
         with:
           node-version-file: '.nvmrc'
       - uses: oven-sh/setup-bun@v2
