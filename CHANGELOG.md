@@ -1,5 +1,11 @@
 # noolbenger
 
+## 1.2.0
+
+### Minor Changes
+
+- Update deps
+
 ## 1.1.2
 
 ### Patch Changes
