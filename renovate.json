@@ -6,12 +6,13 @@
   "labels": ["dependencies"],
   "packageRules": [
     {
-      "groupName": "eslint",
-      "matchPackagePatterns": ["eslint"]
+      "groupName": "bun",
+      "matchPackageNames": ["bun", "oven-sh/setup-bun"],
+      "matchManagers": ["bun", "github-actions"]
     },
     {
-      "groupName": "jest",
-      "matchPackagePatterns": ["jest", "@testing-library"]
+      "groupName": "eslint",
+      "matchPackageNames": ["/eslint/"]
     }
   ]
 }
